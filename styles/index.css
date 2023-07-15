@@ -31,6 +31,11 @@ main p{
     height: 326.496px;
     flex-shrink: 0;
     display: flex;
+    box-shadow: -10px 10px 10px gray;
+
+}
+.img:hover{
+    box-shadow: -10px 10px 10px crimson;
 }
 .box{
     margin-top: 100px;
@@ -111,6 +116,9 @@ footer span{
     .head{
         flex-direction: column;
         gap: 60px;
+        position: relative;
+        right: 25px;
+        
       
     }
     .head > h1{
@@ -132,19 +140,30 @@ footer span{
         text-transform: uppercase;
     }
     .head-dis p{
-        width: 333px;
+        width: 310px;
         height: 87px;
         flex-shrink: 0;
+
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
     .grid-container{
         grid-template-columns: repeat(2,180px);
-        margin: 80px 80px;
+        margin: 40px 20px;
       
     }
     .img{
-        width: 98.719px;
-        height: 221.401px;
+        width: 78.719px;
+        height: 201.401px;
         flex-shrink: 0;
+        box-shadow: -10px 10px 10px gray;
+    }
+    .img:hover{
+        box-shadow: -10px 10px 10px crimson;
     }
     .box{
         margin-top: none;
